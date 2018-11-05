@@ -1,0 +1,45 @@
+.many_posibility
+{
+    width: 100%;
+    height: 670px;
+    background: rgba(216,216,216,0.20);
+    margin-top: 70px;
+    z-index: 999;
+}
+
+.many_posibility__all
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.many_posibility__title
+{
+  width: 800px;
+  font-family: "PT Sans-Bold";
+  color: #383838;
+  font-size: 42px;
+  line-height: 47px;
+  text-align: center;
+  padding-top: 55px;
+  position: relative;
+  left:105px;
+  margin-bottom: 70px;
+}
+
+.many_posibility__description
+{
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    width: 650px;
+}
+
+.many_posibility__img img
+{
+  margin-top: 20px;
+}

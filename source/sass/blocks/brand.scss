@@ -1,0 +1,40 @@
+.brand__all
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.brand__title
+{
+  font-family: "PT Sans-Bold";
+  color: #383838;
+  font-size: 42px;
+  line-height: 47px;
+  text-align: center;
+  padding-top: 55px;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.brand__title span
+{
+  text-transform: uppercase;
+  color: #afcc43;
+}
+
+.brand__description
+{
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    width: 650px;
+}
+
+.brand__img img
+{
+  margin-top: 20px;
+  margin-left: 40px;
+}

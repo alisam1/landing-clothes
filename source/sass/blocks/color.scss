@@ -1,0 +1,40 @@
+.color__all
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.color__title
+{
+  font-family: "PT Sans-Bold";
+  color: #383838;
+  font-size: 42px;
+  line-height: 47px;
+  text-align: center;
+  padding-top: 55px;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.color__title span
+{
+  text-transform: uppercase;
+  color: #afcc43;
+}
+
+.color__description
+{
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    width: 650px;
+}
+
+.color__img img
+{
+  margin-top: 20px;
+  margin-left: 50px;
+}
