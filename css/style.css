@@ -628,8 +628,8 @@ template {
   line-height: 31px;
   color: #383838;
   margin-bottom: 30px;
-  margin-left: 120px;
-  width: 650px; }
+  margin-left: 130px;
+  width: 620px; }
 
 .many_posibility__img img {
   margin-top: 20px; }
@@ -648,7 +648,7 @@ template {
   color: #383838;
   font-size: 42px;
   line-height: 47px;
-  text-align: center;
+  margin-left: 60px;
   padding-top: 55px;
   position: relative;
   margin-bottom: 70px; }
@@ -663,7 +663,7 @@ template {
   line-height: 31px;
   color: #383838;
   margin-bottom: 30px;
-  margin-left: 90px;
+  margin-left: 60px;
   width: 650px; }
 
 .brand__img img {
@@ -692,15 +692,14 @@ template {
   margin-top: 80px; }
 
 .tshirt__title {
-  width: 600px;
+  width: 700px;
   font-family: "PT Sans-Bold";
   color: #383838;
   font-size: 42px;
   line-height: 47px;
-  text-align: center;
   padding-top: 55px;
   position: relative;
-  left: 105px;
+  left: 40px;
   margin-bottom: 70px; }
 
 .tshirt__title span {
@@ -713,7 +712,7 @@ template {
   line-height: 31px;
   color: #383838;
   margin-bottom: 30px;
-  margin-left: 130px;
+  margin-left: 40px;
   width: 500px; }
 
 .tshirt__description span {
@@ -736,7 +735,7 @@ template {
   color: #383838;
   font-size: 42px;
   line-height: 47px;
-  text-align: center;
+  margin-left: 100px;
   padding-top: 55px;
   position: relative;
   margin-bottom: 70px; }
@@ -751,12 +750,261 @@ template {
   line-height: 31px;
   color: #383838;
   margin-bottom: 30px;
-  margin-left: 90px;
+  margin-left: 105px;
   width: 650px; }
 
 .color__img img {
   margin-top: 20px;
   margin-left: 50px; }
+
+.assortment {
+  width: 100%;
+  height: 650px;
+  background: rgba(216, 216, 216, 0.2);
+  margin-top: 70px;
+  z-index: 999; }
+
+.assortment__all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.assortment__about {
+  margin-top: 0px; }
+
+.assortment__title {
+  width: 500px;
+  font-family: "PT Sans-Bold";
+  color: #383838;
+  font-size: 42px;
+  line-height: 47px;
+  padding-top: 55px;
+  position: relative;
+  left: 60px;
+  margin-bottom: 70px; }
+
+.assortmentt__title span {
+  text-transform: uppercase;
+  color: #afcc43; }
+
+.assortment__description {
+  font-family: "PT Sans";
+  font-size: 24px;
+  line-height: 31px;
+  color: #383838;
+  margin-bottom: 30px;
+  margin-left: 60px;
+  width: 500px; }
+
+.assortment__description span {
+  font-weight: bold; }
+
+.assortment__img img {
+  margin-top: 20px; }
+
+.sport {
+  height: 670px; }
+
+.sport__all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.sport__about {
+  margin-top: 80px; }
+
+.sport__title {
+  width: 700px;
+  font-family: "PT Sans-Bold";
+  color: #383838;
+  font-size: 42px;
+  line-height: 47px;
+  padding-top: 55px;
+  position: relative;
+  left: 40px;
+  margin-bottom: 70px; }
+
+.sport__title span {
+  text-transform: uppercase;
+  color: #afcc43; }
+
+.sport__description {
+  font-family: "PT Sans";
+  font-size: 24px;
+  line-height: 31px;
+  color: #383838;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  width: 500px; }
+
+.sport__description span {
+  font-weight: bold; }
+
+.sport__img img {
+  margin-top: 50px;
+  margin-left: 120px; }
+
+.knitting {
+  width: 100%;
+  height: 600px;
+  background: rgba(216, 216, 216, 0.2);
+  margin-top: 70px;
+  z-index: 999; }
+
+.knitting__all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.knitting__about {
+  margin-top: 0px; }
+
+.knitting__title {
+  width: 500px;
+  font-family: "PT Sans-Bold";
+  color: #383838;
+  font-size: 42px;
+  line-height: 47px;
+  padding-top: 55px;
+  position: relative;
+  left: 60px;
+  margin-bottom: 70px; }
+
+.knitting__title span {
+  text-transform: uppercase;
+  color: #afcc43; }
+
+.knitting__description {
+  font-family: "PT Sans";
+  font-size: 24px;
+  line-height: 31px;
+  color: #383838;
+  margin-bottom: 30px;
+  margin-left: 60px;
+  width: 500px; }
+
+.knitting__description span {
+  font-weight: bold; }
+
+.knitting__img img {
+  margin-top: 20px; }
+
+.tekstil {
+  height: 670px; }
+
+.tekstil__all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.tekstil__about {
+  margin-top: 80px; }
+
+.tekstil__title {
+  width: 700px;
+  font-family: "PT Sans-Bold";
+  color: #383838;
+  font-size: 42px;
+  line-height: 47px;
+  padding-top: 55px;
+  position: relative;
+  left: 40px;
+  margin-bottom: 70px; }
+
+.tekstil__title span {
+  text-transform: uppercase;
+  color: #afcc43; }
+
+.tekstil__description {
+  font-family: "PT Sans";
+  font-size: 24px;
+  line-height: 31px;
+  color: #383838;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  width: 500px; }
+
+.tekstil__description span {
+  font-weight: bold; }
+
+.tekstil__img img {
+  margin-top: 50px;
+  margin-left: 120px; }
+
+.stamp {
+  width: 100%;
+  height: 700px;
+  background: rgba(216, 216, 216, 0.2);
+  margin-top: 70px;
+  z-index: 999; }
+
+.stamp__all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.stamp__about {
+  margin-top: 0px; }
+
+.stamp__title {
+  width: 500px;
+  font-family: "PT Sans-Bold";
+  color: #383838;
+  font-size: 42px;
+  line-height: 47px;
+  padding-top: 55px;
+  position: relative;
+  left: 60px;
+  margin-bottom: 70px; }
+
+.stamp__title span {
+  text-transform: uppercase;
+  color: #afcc43; }
+
+.stamp__description {
+  font-family: "PT Sans";
+  font-size: 24px;
+  line-height: 31px;
+  color: #383838;
+  margin-bottom: 30px;
+  margin-left: 60px;
+  width: 500px; }
+
+.stamp__description span {
+  font-weight: bold; }
+
+.stamp__img img {
+  margin-top: 20px; }
 
 .delivery {
   width: 100%;
