@@ -1,25 +1,21 @@
-.tshirt
+.tekstil
 {
-    width: 100%;
     height: 670px;
-    background: rgba(216,216,216,0.20);
-    margin-top: 70px;
-    z-index: 999;
 }
 
-.tshirt__all
+.tekstil__all
 {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: space-around;
 }
 
-.tshirt__about
+.tekstil__about
 {
   margin-top: 80px;
 }
 
-.tshirt__title
+.tekstil__title
 {
   width: 700px;
   font-family: "PT Sans-Bold";
@@ -32,13 +28,13 @@
   margin-bottom: 70px;
 }
 
-.tshirt__title span
+.tekstil__title span
 {
   text-transform: uppercase;
   color: #afcc43;
 }
 
-.tshirt__description
+.tekstil__description
 {
     font-family: "PT Sans";
     font-size: 24px;
@@ -49,12 +45,13 @@
     width: 500px;
 }
 
-.tshirt__description span
+.tekstil__description span
 {
   font-weight: bold;
 }
 
-.tshirt__img img
+.tekstil__img img
 {
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-left: 120px;
 }
