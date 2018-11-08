@@ -43,3 +43,55 @@
 {
   margin-top: 20px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+  .many_posibility
+  {
+    height: 1350px;
+  }
+
+
+  .many_posibility__all
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .many_posibility__title {
+    width: 280px;
+    font-family: "PT Sans-Bold";
+    color: #383838;
+    font-size: 42px;
+    line-height: 47px;
+    text-align: left;
+    padding-top: 55px;
+    position: relative;
+    margin-bottom: 70px;
+    left: 40px;
+}
+
+.many_posibility__description {
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    width: 280px;
+}
+
+.many_posibility__img img
+{
+  width: 280px;
+  margin-left: 40px;
+}
+
+
+}

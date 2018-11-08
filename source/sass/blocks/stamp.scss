@@ -58,3 +58,58 @@
 {
   margin-top: 20px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+  .stamp
+  {
+    height: 900px;
+  }
+
+  .stamp__all
+  {
+    flex-direction: column;
+  }
+
+  .stamp__about
+  {
+    margin-top: 0;
+  }
+
+  .stamp__title {
+      width: 280px;
+      font-family: "PT Sans-Bold";
+      color: #383838;
+      font-size: 42px;
+      line-height: 47px;
+      padding-top: 55px;
+      position: relative;
+      left: 40px;
+      margin-bottom: 0px;
+  }
+
+  .stamp__description {
+      font-family: "PT Sans";
+      font-size: 24px;
+      line-height: 31px;
+      color: #383838;
+      margin-bottom: 30px;
+      margin-left: 40px;
+      width: 280px;
+  }
+
+  .stamp__img img {
+      margin-top: 0px;
+      width: 280px;
+      margin-left: 40px;
+  }
+
+
+
+}
