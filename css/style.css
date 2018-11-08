@@ -840,6 +840,41 @@ template {
 .many_posibility__img img {
   margin-top: 20px; }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .many_posibility {
+    width: 100%;
+    height: 1300px;
+    background: rgba(216, 216, 216, 0.2);
+    margin-top: 70px;
+    z-index: 999; }
+  .many_posibility__all {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .many_posibility__title {
+    width: 650px;
+    font-family: "PT Sans-Bold";
+    color: #383838;
+    font-size: 42px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 55px;
+    position: relative;
+    left: 105px;
+    margin-bottom: 70px; }
+  .many_posibility__description {
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 30px;
+    margin-left: 130px;
+    width: 620px; }
+  .many_posibility__img img {
+    margin-top: 20px;
+    margin-left: 120px; } }
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .many_posibility {
     height: 1350px; }
@@ -910,6 +945,31 @@ template {
   margin-top: 20px;
   margin-left: 40px; }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .brand__title {
+    font-family: "PT Sans-Bold";
+    color: #383838;
+    font-size: 42px;
+    line-height: 47px;
+    margin-left: 100px;
+    padding-top: 55px;
+    position: relative;
+    margin-bottom: 70px;
+    text-align: center;
+    width: 650px; }
+  .brand__description {
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 30px;
+    margin-left: 130px;
+    width: 620px; }
+  .brand__img img {
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 650px; } }
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .brand__description {
     font-family: "PT Sans";
@@ -975,6 +1035,41 @@ template {
 .tshirt__img img {
   margin-top: 20px; }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .tshirt {
+    width: 100%;
+    height: 1025px;
+    background: rgba(216, 216, 216, 0.2);
+    margin-top: 70px;
+    z-index: 999; }
+  .tshirt__all {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .tshirt__title {
+    width: 650px;
+    font-family: "PT Sans-Bold";
+    color: #383838;
+    font-size: 42px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 0px;
+    position: relative;
+    left: 105px;
+    margin-bottom: 50px; }
+  .tshirt__description {
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    width: 500px; }
+  .tshirt__img img {
+    margin-top: 20px;
+    margin-left: 250px; } }
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .tshirt {
     height: 1095px; }
@@ -1028,6 +1123,30 @@ template {
 .color__img img {
   margin-top: 20px;
   margin-left: 50px; }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .color__title {
+    width: 300px;
+    font-family: "PT Sans-Bold";
+    color: #383838;
+    font-size: 42px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 0px;
+    margin-bottom: 50px;
+    left: 180px; }
+  .color__description {
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    width: 500px; }
+  .color__img img {
+    width: 650px;
+    margin-top: 20px;
+    margin-left: 80px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .color__title {
@@ -1091,6 +1210,41 @@ template {
 
 .assortment__img img {
   margin-top: 20px; }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .assortment {
+    width: 100%;
+    height: 1000px;
+    background: rgba(216, 216, 216, 0.2);
+    margin-top: 70px;
+    z-index: 999; }
+  .assortment__all {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .assortment__title {
+    width: 650px;
+    font-family: "PT Sans-Bold";
+    color: #383838;
+    font-size: 42px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 55px;
+    position: relative;
+    left: 105px;
+    margin-bottom: 70px; }
+  .assortment__description {
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 30px;
+    margin-left: 130px;
+    width: 620px; }
+  .assortment__img img {
+    margin-top: 20px;
+    margin-left: 120px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .assortment {
@@ -1164,6 +1318,40 @@ template {
 .sport__img img {
   margin-top: 50px;
   margin-left: 120px; }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .sport {
+    height: 1200px; }
+  .sport__all {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .sport__title {
+    width: 650px;
+    font-family: "PT Sans-Bold";
+    color: #383838;
+    font-size: 42px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 0px;
+    margin-bottom: 50px;
+    left: 105px; }
+  .sport__description {
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    width: 500px; }
+  .sport__img img {
+    width: 650px;
+    margin-top: 20px;
+    margin-left: 80px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .sport {
@@ -1249,6 +1437,41 @@ template {
 .knitting__img img {
   margin-top: 20px; }
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .knitting {
+    width: 100%;
+    height: 1000px;
+    background: rgba(216, 216, 216, 0.2);
+    margin-top: 70px;
+    z-index: 999; }
+  .knitting__all {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .knitting__title {
+    width: 650px;
+    font-family: "PT Sans-Bold";
+    color: #383838;
+    font-size: 42px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 55px;
+    position: relative;
+    left: 105px;
+    margin-bottom: 70px; }
+  .knitting__description {
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 30px;
+    margin-left: 130px;
+    width: 620px; }
+  .knitting__img img {
+    margin-top: 20px;
+    margin-left: 120px; } }
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .knitting {
     height: 1000px; }
@@ -1327,6 +1550,40 @@ template {
 .tekstil__img img {
   margin-top: 50px;
   margin-left: 120px; }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .tekstil {
+    height: 1200px; }
+  .tekstil__all {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .tekstil__title {
+    width: 650px;
+    font-family: "PT Sans-Bold";
+    color: #383838;
+    font-size: 42px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 0px;
+    margin-bottom: 50px;
+    left: 105px; }
+  .tekstil__description {
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    width: 500px; }
+  .tekstil__img img {
+    width: 650px;
+    margin-top: 20px;
+    margin-left: 80px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .tekstil {
@@ -1411,6 +1668,41 @@ template {
 
 .stamp__img img {
   margin-top: 20px; }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .stamp {
+    width: 100%;
+    height: 1050px;
+    background: rgba(216, 216, 216, 0.2);
+    margin-top: 70px;
+    z-index: 999; }
+  .stamp__all {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .stamp__title {
+    width: 650px;
+    font-family: "PT Sans-Bold";
+    color: #383838;
+    font-size: 42px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 55px;
+    position: relative;
+    left: 105px;
+    margin-bottom: 70px; }
+  .stamp__description {
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 30px;
+    margin-left: 130px;
+    width: 620px; }
+  .stamp__img img {
+    margin-top: 20px;
+    margin-left: 160px; } }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .stamp {
