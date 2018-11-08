@@ -61,7 +61,48 @@
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
+  .tshirt {
+      width: 100%;
+      height: 1025px;
+      background: rgba(216, 216, 216, 0.2);
+      margin-top: 70px;
+      z-index: 999;
+  }
 
+  .tshirt__all {
+  flex-direction: column;
+
+  }
+
+  .tshirt__title {
+    width: 650px;
+    font-family: "PT Sans-Bold";
+    color: #383838;
+    font-size: 42px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 0px;
+    position: relative;
+    left: 105px;
+    margin-bottom: 50px;
+  }
+
+  .tshirt__description {
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    width: 500px;
+  }
+
+
+  .tshirt__img img
+  {
+    margin-top: 20px;
+    margin-left: 250px;
+  }
 
 }
 

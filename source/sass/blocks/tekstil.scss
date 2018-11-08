@@ -58,10 +58,48 @@
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
+  .tekstil
+  {
+      height: 1200px;
+  }
 
+  .tekstil__all
+  {
+    display: flex;
+    flex-direction:column;
+  }
 
+  .tekstil__title {
+    width: 650px;
+    font-family: "PT Sans-Bold";
+    color: #383838;
+    font-size: 42px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 0px;
+    margin-bottom: 50px;
+    left: 105px;
 }
 
+  .tekstil__description {
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    width: 500px;
+  }
+
+
+  .tekstil__img img
+  {
+    width: 650px;
+    margin-top: 20px;
+    margin-left:80px;
+  }
+
+}
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
   .tekstil

@@ -58,7 +58,46 @@
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
 
+  .sport
+  {
+      height: 1200px;
+  }
 
+  .sport__all
+  {
+    display: flex;
+    flex-direction:column;
+  }
+
+  .sport__title {
+    width: 650px;
+    font-family: "PT Sans-Bold";
+    color: #383838;
+    font-size: 42px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 0px;
+    margin-bottom: 50px;
+    left: 105px;
+}
+
+  .sport__description {
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 30px;
+    margin-left: 150px;
+    width: 500px;
+  }
+
+
+  .sport__img img
+  {
+    width: 650px;
+    margin-top: 20px;
+    margin-left:80px;
+  }
 
 }
 
